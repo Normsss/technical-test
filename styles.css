@@ -1,0 +1,59 @@
+
+* {
+    box-sizing: border-box;
+
+}
+
+h1 {
+    color: #5c068c;
+    text-align: left;
+    font-size: 18px;
+    margin: 50px;
+}
+
+main.mobile  {
+    width: 480px;
+    margin: auto;
+}
+
+main.mobile article {
+   flex-direction: column;
+}
+
+main.mobile article img {
+    width: 150px;
+    margin: auto;
+}
+
+
+main article{
+    display: flex;
+    margin: 50px;
+    flex-direction: row;
+}
+
+article ul li{
+    font-size: 14px;
+}
+
+button {
+    margin-left: 50px;
+    border-radius: 10px;
+    border: .5px solid #5c068c;
+    padding: 10px;
+    background-color:;
+}
+
+@media (max-width: 480px) {
+    
+    main.desktop article{
+        flex-direction: column;
+    }
+
+    .hidden {
+        display: none;
+    }
+
+}
+
+
